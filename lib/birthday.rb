@@ -13,7 +13,7 @@ end
 
 
 def age_appropriate_birthday(birthday_kids)
-  birthday_kids.has_key { |kids_name, age| age == age <= 12 }
+  birthday_kids.has_key(age) 
       puts "Happy Birthday #{kids_name}! You are now #{age} years old!"
     end
   end
